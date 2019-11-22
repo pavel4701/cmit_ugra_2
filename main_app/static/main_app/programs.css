@@ -1,0 +1,270 @@
+.our_programs_learn {
+	padding-bottom: 13%;
+}
+
+.our_programs_learn__information  {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 24vh;
+	margin: auto;
+}
+
+.our_programs_learn__information__left {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 40%;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.our_programs_learn__information__right {
+	width: 40%;
+}
+
+.our_programs_learn__information__right__head {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+	
+	width: 80%;
+
+	height: 50%;
+}
+
+.our_programs_learn__information__right__documents {
+	height: 100%;
+	width: 100%;
+}
+
+.our_programs_learn__information__right__documents a {
+	height: 20%;
+	width: 100%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+
+	border: solid 2px #89C627;
+	border-radius: 15px;
+}
+
+.our_programs_learn__information__right__documents a .documents__imgs {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 10%;
+	height: 100%;
+}
+
+.our_programs_learn__information__right__documents a .documents__imgs img {
+	height: 80%
+}
+
+.our_programs_learn__information__right__documents a p {
+	font-size: 15px;
+	width: 85%;
+}
+
+.our_programs_learn__links {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.our_programs_learn__links__block {
+	width: 14%;
+	padding: 3% 2%; 
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	border: solid 2px black;
+	border-radius: 15px;
+	margin-bottom: 3%;
+}
+
+.our_programs_learn__links__block__inscription {
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+	width: 30%;
+	padding: 1%;
+	background-color: #B9EA6A;
+
+	text-align: center;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 15px 0 0 15px;
+}
+
+.our_programs_learn__links__block__head {
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.our_programs_learn__links__block a {
+	
+	display: block;
+
+	border: solid 2px black;
+	border-radius: 10px;
+	padding: 3% 5%; 
+
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 1824px){
+.programm{
+	height: 104.5vh;
+}
+.our_programs_learn {
+	padding-bottom: 13%;
+}
+
+.our_programs_learn__information  {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 24vh;
+	margin: auto;
+}
+
+.our_programs_learn__information__left {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 40%;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.our_programs_learn__information__right {
+	width: 40%;
+}
+
+.our_programs_learn__information__right__head {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;
+	
+	width: 80%;
+
+	height: 50%;
+}
+
+.our_programs_learn__information__right__documents {
+	height: 100%;
+	width: 100%;
+}
+
+.our_programs_learn__information__right__documents a {
+	height: 20%;
+	width: 100%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+
+	border: solid 2px #89C627;
+	border-radius: 15px;
+}
+
+.our_programs_learn__information__right__documents a .documents__imgs {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 10%;
+	height: 100%;
+}
+
+.our_programs_learn__information__right__documents a .documents__imgs img {
+	height: 80%
+}
+
+.our_programs_learn__information__right__documents a p {
+	font-size: 15px;
+	width: 85%;
+}
+
+.our_programs_learn__links {
+	margin-top: 8%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.our_programs_learn__links__block {
+	width: 14%;
+	padding: 3% 2%; 
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	border: solid 2px black;
+	border-radius: 15px;
+	margin-bottom: 3%;
+}
+
+.our_programs_learn__links__block__inscription {
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+	width: 30%;
+	padding: 1%;
+	background-color: #B9EA6A;
+
+	text-align: center;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 15px 0 0 15px;
+}
+
+.our_programs_learn__links__block__head {
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.our_programs_learn__links__block a {
+	
+	display: block;
+
+	border: solid 2px black;
+	border-radius: 10px;
+	padding: 3% 5%; 
+
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+	}

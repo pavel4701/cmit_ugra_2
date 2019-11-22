@@ -1,0 +1,159 @@
+.vacancies {
+	background: url("../img/vacancies/magnifier.png") no-repeat;
+}
+
+.vacancies__wrapper {
+	width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    margin-left: 2%;;
+}
+
+.vacancies__offer__head {
+	font-family: FE THE PROFESSIONAL, sans-serif;
+	margin-bottom: -1%;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.vacancies__offer {
+	width: 40%;
+	background-color: #FAFAFA;
+
+	border: solid black 2px;
+	border-radius: 15px;
+	padding-left: 1%;
+}
+
+.vacancies__offer__list {
+	font-size: 125%;
+	color: #89C627;
+}
+	
+.vacancies__offer__list li {
+	color: #89C627;
+}
+
+.vacancies__offer__list li span {
+	color: black;
+}
+
+.vacancies__btn1 {
+	background-color: #89C627;
+    padding: 1%;
+    border-radius: 15px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15%;
+    margin-top: 13%;
+}
+
+.vacancies__links {
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.vacancies__links__block {
+	width: 25%;
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (min-width: 1824px){
+    .vacancies {
+    background: url("../img/vacancies/magnifier.png") no-repeat;
+    height: 99.5vh;
+}
+
+.vacancies__wrapper {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    margin-left: 2%;
+}
+
+.vacancies__offer__head {
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    margin-bottom: -1%;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.vacancies__offer {
+    width: 40%;
+    background-color: #FAFAFA;
+
+    border: solid black 2px;
+    border-radius: 15px;
+    padding-left: 1%;
+}
+
+.vacancies__offer__list {
+    font-size: 175%;
+    color: #89C627;
+}
+    
+.vacancies__offer__list li {
+    color: #89C627;
+}
+
+.vacancies__offer__list li span {
+    color: black;
+}
+
+.vacancies__btn1 {
+    background-color: #89C627;
+    padding: 1%;
+    border-radius: 15px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15%;
+    margin-top: 13%;
+}
+
+.vacancies__links {
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9%;
+}
+
+.vacancies__links__block {
+    width: 25%;
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+}
