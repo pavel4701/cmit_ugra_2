@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+	<title>ЦМИТы Югры</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="/static/main_app/main_app.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/about_cmit.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/news.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/programs.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/team.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/vacanses.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/mobile_main_app.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/mobile_about_cmit.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/mobile_news.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/mobile_programs.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/mobile_team.css">
+	<link rel="stylesheet" type="text/css" href="/static/main_app/mobile_vacanses.css">
+</head>
+<body>
+
+{% block content %}
+
+<div class="main_block">
+	<div class="main__header">
+		<img src="static/img/logo.png" alt="logo" class="header_logo">
+		
+		<img src="static/img/lineV.png" class="header_lineV">
+			<div style="display: initial;">  
+				<a class="about__cmit" href="#about_cmit">О ЦМИТе</a>
+				<a href="#news">Новости</a>
+				<a href="#our_programs_learn__links">Родителям</a>
+				<a href="#our_programs_learn__links">Обучающимся</a>
+				<a href="#vacancies">Вакансии</a>
+				<a href="#our_team">Контакты</a>
+			</div>
+	</div>
+</div>
+<div class="main__content">
+	<h2 class="main__content__head">В СВЕТЛОЕ<br>БУДУЩЕЕ</h2>
+		<div class="main__content__social">
+			<a href="https://www.facebook.com/cmitugra/"><img src="static/img/social/face.png" alt="facebook" class="facebook"></a>
+			<a href="https://www.instagram.com/cmit_ugra/"><img src="static/img/social/insta.png" alt="instagram" class="instagram"></a>
+			<a href="https://www.youtube.com/channel/UCe3qBDk3CaiLC3XqQ8yVivw"><img src="static/img/social/you.png" alt="youtube" class="youtube"></a>
+			<a href="https://vk.com/cmitugra"><img src="static/img/social/vk.png" alt="vk" class="vk"></a>
+		</div>
+			<a href="https://docs.google.com/forms/d/1HobCNS_zv-wZ13RO_R5qvcYQno79s_UIeNk2Pn8KQNI/viewform?edit_requested=true" class="main__content__btn1">ПОДАТЬ ЗАЯВКУ</a>
+</div>
+
+<!-- About_CMIT -->
+
+<div id="about_cmit" class="about_cmit">
+	<div class="block_header">
+		<h2 class="block_header__head">О ЦМИТЕ</h2>
+	</div>
+		<div class="about_cmit__information">
+			<img src="static/img/about_cmit/CMIT.png" alt="">
+			<p class="about_cmit__information_p">Центр молодежного инновационного творчества (ЦМИТ) «Навигатор» - это сообщество инженеров, инновационные технологии, творческая атмосфера и профессиональная траектория в будущее. ЦМИТ действует для обеспечения благоприятных условий развития детей, молодежи и субъектов малого и среднего предпринимательства в научно-технической, инновационной, производственной и творческой деятельности, с использованием постоянно совершенствующейся материально-технической, экспертной и информационной базы.</p>
+		</div>
+		<img class="about_cmit__line_wr" src="static/img/about_cmit/line_wr.png" alt="">
+			<div class="about_cmit__links">
+				<a href="#our_team">
+				<img src="static/img/about_cmit/our_team.png">
+				Наша<br>команда
+				</a>
+				<a href="project/project.html">
+				<img src="static/img/about_cmit/our_project.png">
+				наши<br>проекты
+				</a>
+				<a href="license/license.html">
+				<img src="static/img/about_cmit/sertificate.png">
+				сертификаты
+				</a>
+				<a href="license/license.html">
+				<img src="static/img/about_cmit/licenses.png">
+				лицензии
+				</a>
+				<a href="#">
+				<img src="static/img/about_cmit/our_partners.png">
+				наши<br>партнеры
+				</a>
+			</div>
+</div>
+
+<!-- news -->
+
+<div id="news" class="news">
+	<div class="block_header">
+		<h2 class="block_header__head">НОВОСТИ</h2>
+	</div>
+	<div class="news__content">
+		<div class="news__content__main">
+			<div class="news__content__main__subtext">
+				<div class="news__content__main__subtext__text">
+					<img class="img_inovatikum" src="static/img/news/inovatikum.png">
+					<h3>Детский научно технический лагерь - инноватикум</h3>
+					<p>В рамках работы лагеря организованы деловые игры, мастер–классы, тренинги и встречи, деловые беседы с практикующими специалистами, которые ознакомят участников лагерной смены не только с естественно-техническим направлением но...</p>	
+				</div>
+				<div class="news__content__main__subtext__btn1">
+					<a href="news/inovatikum.html">подробнее</a>
+				</div>
+			</div>
+		</div>
+		<div class="news__content__add">
+			<img src="static/img/project/scoro.svg">
+			<img src="static/img/project/scoro.svg">
+		</div>	
+	</div>
+	<img class="freetouch" src="static/img/news/radio.png">
+</div>
+
+<!-- programm -->
+<div class="programm">
+	<div class="block_header">
+		<h2 class="block_header__head">НАШИ ПРОГРАММЫ ОБУЧЕНИЯ<br><img src="img/our_programs_learn/lineWR.png" alt=""></h2>
+		</div>
+	<div class="our_programs_learn__information">
+		<div class="our_programs_learn__information__left">
+			<img src="static/img/our_programs_learn/icon_for.png" style="margin-right: 5%;">
+			для детей от 9 лет
+		</div>
+			<img src="static/img/our_programs_learn/lineHR.png" style="">
+		<div class="our_programs_learn__information__right">
+			<div class="our_programs_learn__information__right__head">
+				<img src="static/img/our_programs_learn/document_icon.png">
+				документы и справки
+			</div>
+			<div class="our_programs_learn__information__right__documents">
+				<a href="static/docs/1.docx">
+				<div class="documents__imgs">
+				<img src="static/img/our_programs_learn/dow_doc_icon.png">
+				<img src="static/img/our_programs_learn/sep.png">
+			</div>
+				<p>Согласие на обработку персональных данных</p>
+				</a>
+				<a href="static/docs/2.doc">
+				<div class="documents__imgs">
+				<img src="static/img/our_programs_learn/dow_doc_icon.png">
+				<img src="static/img/our_programs_learn/sep.png">
+			</div>	
+			<p>Заявление о включении в систему ПФ образец</p>
+			</a>
+			</div>
+		</div>
+	</div>
+	<div class="our_programs_learn__links">
+		<div class="our_programs_learn__links__block">
+			<img src="static/img/our_programs_learn/3d.png" width="84">
+			<p class="our_programs_learn__links__block__inscription">популярно</p>
+			<h3 class="our_programs_learn__links__block__head">3д моделирование</h3>
+			<img src="static/img/our_programs_learn/line_links.png">
+			<p class="our_programs_learn__links__block__description">Курс направленный на изучение и работу программ создания 3д объектов..</p>
+			<a href="kours/3dmodeling.html">подробнее</a>
+		</div>
+		<div class="our_programs_learn__links__block">
+			<img src="static/img/our_programs_learn/python.png">
+			<p class="our_programs_learn__links__block__inscription" style="background-color: #66BAED">Новинка</p>
+			<h3 class="our_programs_learn__links__block__head">Программирование</h3>
+			<img src="static/img/our_programs_learn/line_links.png">
+			<p class="our_programs_learn__links__block__description">Изучение основных языков программирования...</p>
+			<a href="kours/python.html">подробнее</a>
+		</div>
+		<div class="our_programs_learn__links__block">
+			<img src="static/img/our_programs_learn/multimedia.png">
+			<p class="our_programs_learn__links__block__inscription">популярно</p>
+			<h3 class="our_programs_learn__links__block__head">Мультимедиа</h3>
+			<img src="static/img/our_programs_learn/line_links.png">
+			<p class="our_programs_learn__links__block__description">Курс направленный на изучение принципов работ программ фото и видео обработки...</p>
+			<a href="kours/mylti.html">подробнее</a>
+		</div>
+			<div class="our_programs_learn__links__block">
+			<img src="static/img/our_programs_learn/BPLA.png">
+			<p class="our_programs_learn__links__block__inscription" style="background-color: #66BAED">Новинка</p>
+			<h3 class="our_programs_learn__links__block__head">БПЛА</h3>
+			<img src="static/img/our_programs_learn/line_links.png">
+			<p class="our_programs_learn__links__block__description">Изучение принципов работы беспилотных летательных аппаратов...</p>
+			<a href="kours/BPLA.html">подробнее</a>
+		</div>
+	</div>
+</div>
+<!-- Team -->
+
+<div id="our_team" class="our_team">
+	<div class="block_header" style="margin-top: -4%">
+		<h2 class="block_header__head">Наша команда</h2>
+	</div>
+	<div class="our_team__block">
+		<div class="our_team__block__information">
+			<!-- <img src="" alt=""> -->
+
+			<img class="our_team_foto" src="static/img/our_team/ivanovAA.jpg" alt="">
+			<h3 class="our_team__block__information__head">иванов алексей</h3>
+			<img src="static/img/our_team/line2.png" alt="">
+			<p class="our_team__block__information__description">ГЕНИРАЛЬНЫЙ ДИРЕКТОР ЦМИТЫ ЮГРЫ</p>
+				<div class="our_team__block__information__social">
+					<a href="#"><img src="static/img/social/facebook_icon-80.jpg"></a>
+					<a href="#"><img src="static/img/social/vk_icon-80.jpg"></a>
+				</div>
+		</div>
+		<div class="our_team__block__information" style="background: url(static/img/1x/near.png) 100%;">
+			<!-- <img src="" alt=""> -->
+
+			<!-- <img class="our_team_foto" src="img/our_team/chadaevAI.jpg" alt="">
+			<h3 class="our_team__block__information__head">ЧАДАЕВ АРТЕМ</h3>
+			<img src="img/our_team/line2.png" alt="">
+			<p class="our_team__block__information__description">РУКОВОДИТЕЛЬ ОТДЕЛА ПО РАБОТЕ С ПРОЕКТАМИ</p>
+			<div class="our_team__block__information__social">
+			<a href="#"><img src="img/social/facebook_icon-80.jpg"></a>
+			<a href="#"><img src="img/social/vk_icon-80.jpg"></a>
+			</div> -->
+		</div>
+		<div class="our_team__block__information"style="background: url(static/img/1x/near.png) 100%;">
+			<!-- <img src="" alt=""> -->
+			<!-- <img class="our_team_foto" src="img/our_team/efrndievVE.jpg" alt="">
+			<h3 class="our_team__block__information__head">ЭФЕНДИЕВ ВАДИМ</h3>
+			<img src="img/our_team/line2.png" alt="">
+			<p class="our_team__block__information__description">эксперт по графическому дизайну</p>
+			<div class="our_team__block__information__social">
+			<a href="#"><img src="img/social/facebook_icon-80.jpg"></a>
+			<a href="#"><img src="img/social/vk_icon-80.jpg"></a>
+			</div>-->
+		</div>
+	</div>
+</div>
+
+<!-- vacanses -->
+
+<div id="vacancies" class="vacancies">
+	<div class="block_header">
+		<h2 class="block_header__head">вакансии цмит</h2>
+	</div>
+	<div class="vacancies__wrapper">
+		<div class="vacancies__offer">
+			<h3 class="vacancies__offer__head">Наше предложение:</h3>
+			<ul class="vacancies__offer__list">
+			<li><span>гибкий график работы</span></li>
+			<li><span>доступ к высокотехнологичному оборудованию</span></li>
+			<li><span>возможность реализовать себя в уникальном проекте</span></li>
+			<li><span>возможность обучения и повышения квалификации</span></li>
+			<li><span>заработная плата, по условиям собеседования.</span></li>
+			</ul>
+		</div>
+			<a href="#" class="vacancies__btn1">подать заявку</a>
+	</div>
+	<div class="vacancies__links">
+		<a href="vacances/texnic.html" class="vacancies__links__block">
+		<img src="static/img/vacancies/teh.png">
+		<img src="static/img/vacancies/line.png" alt="">
+		<h3>ТЕХНИЧЕСКИЙ СПЕЦИАЛИСТ В ЦМИТ</h3>
+		</a>
+		<a href="vacances/admin.html" class="vacancies__links__block">
+		<img src="static/img/vacancies/adm.png">
+		<img src="static/img/vacancies/line.png" alt="">
+		<h3>АДМИНИСТРАТОР В ЦМИТ</h3>
+		</a>
+		<a href="vacances/prepod.html" class="vacancies__links__block">
+		<img src="static/img/vacancies/ped.png">
+		<img src="static/img/vacancies/line.png" alt="">
+		<h3>ПЕДАГОГ<br>В ЦМИТ</h3>
+		</a>
+	</div>
+</div>
+{% endblock %}
+
+</body>
+</html>
