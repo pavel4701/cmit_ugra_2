@@ -1,0 +1,193 @@
+.freetouch{
+	display: block;
+    margin: auto;
+    margin-top: -2%;
+}
+.news {
+	background-color: white;
+}
+
+.news__content {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 67%;
+	margin: auto;
+}
+
+.news__content__main {
+	width: 45%;
+    height: 100%;
+    margin-top: 34%;
+}
+
+.news__content__main__subtext {
+	display: flex;
+    justify-content: space-around;
+    background-color: #353535;
+    border-radius: 0 0 15px 15px;
+    height: 30vh;
+    width: 100%;
+    margin-left: 18%;
+    margin-top: -15%;			
+}
+
+.news__content__main__subtext__text {
+	width: 59%;
+	color: white;
+}
+
+.news__content__main__subtext__text h3 {
+	text-transform: uppercase;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 18px;
+}
+
+.news__content__main__subtext__text p {
+	font-size: 14px;
+}
+
+.news__content__main__subtext__btn1 {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.news__content__main__subtext__btn1 a {
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	
+	width: 55%;
+	height: 15%;
+	border: solid 2px white;
+	border-radius: 10px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+	line-height: 250%;
+	margin-bottom: 12%;
+}
+
+.news__content__add {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31%;
+    margin-right: 13%;
+}
+.img_inovatikum{
+	width: 169.5%;
+    height: 43ch;
+    margin-top: -106%;
+    margin-left: -2.5%;
+}
+
+.news__content__add1 {
+	height: 59%;
+}
+
+.news__content__add2 {
+	height: 39%;
+}
+
+@media screen and (min-width: 1824px){
+.freetouch{
+	display: block;
+    margin: auto;
+    margin-top: -2%;
+}
+.news {
+	background-color: white;
+}
+
+.news__content {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 86.5vh;
+	margin: auto;
+}
+
+.news__content__main {
+	width: 45%;
+    height: 100%;
+    margin-top: 34%;
+}
+
+.news__content__main__subtext {
+	display: flex;
+    justify-content: space-around;
+    background-color: #353535;
+    border-radius: 0 0 15px 15px;
+    height: 30vh;
+    width: 100%;
+    margin-left: -0%;
+    margin-top: -15%			
+}
+
+.news__content__main__subtext__text {
+	width: 59%;
+	color: white;
+}
+
+.news__content__main__subtext__text h3 {
+	text-transform: uppercase;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 18px;
+}
+
+.news__content__main__subtext__text p {
+	font-size: 14px;
+}
+
+.news__content__main__subtext__btn1 {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.news__content__main__subtext__btn1 a {
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	
+	width: 55%;
+	height: 15%;
+	border: solid 2px white;
+	border-radius: 10px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+	line-height: 250%;
+	margin-bottom: 12%;
+}
+
+.news__content__add {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31%;
+    margin-right: 9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.img_inovatikum{
+	width: 169.5%;
+    height: 43ch;
+    margin-top: -106%;
+    margin-left: -2.5%;
+}
+
+.news__content__add1 {
+	height: 59%;
+}
+
+.news__content__add2 {
+	height: 39%;
+}
+}

@@ -1,0 +1,47 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.our_team {
+    margin-bottom: 20%;
+	background: url("../img/our_team/our_team_logo.png") no-repeat;
+	height: 97.5vh;
+}
+
+.our_team__block {
+	height: 93%;
+    display: flex;
+    flex-direction: column;
+}
+
+.our_team__block__information {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    padding: 1.5%;
+    border: solid black 2px;
+    border-radius: 15px;
+    height: 136%;
+    margin-left: 37%;
+    margin-top: 3%;
+}
+
+.our_team__block__information__head {
+	text-transform: uppercase;
+}
+
+.our_team__block__information__description {
+	width: 70%;
+	text-align: center;
+}
+
+.our_team__block__information__social {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.our_team_foto{
+	    width: 88%;
+     height: 45%;
+     border-radius: 100%;
+}
+}

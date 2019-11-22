@@ -1,0 +1,81 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.vacancies {
+	background: url("../img/vacancies/magnifier.png") no-repeat;
+    height: 97.5vh; 
+}
+
+.vacancies__wrapper {
+	width: 96%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin-left: 2%;;
+}
+
+.vacancies__offer__head {
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	margin-bottom: -1%;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.vacancies__offer {
+	width: 78%;
+    background-color: #FAFAFA;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding-left: 1%;
+}
+
+.vacancies__offer__list {
+    font-size: 179%;
+    color: #89C627;
+}
+	
+.vacancies__offer__list li {
+	color: #89C627;
+}
+
+.vacancies__offer__list li span {
+	color: black;
+}
+
+.vacancies__btn1 {
+	background-color: #89C627;
+    padding: 1%;
+    border-radius: 15px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 4%;
+    margin-top: 7%;
+}
+
+.vacancies__links {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.vacancies__links__block {
+    width: 49%;
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+}

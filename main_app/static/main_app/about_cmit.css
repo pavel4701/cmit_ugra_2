@@ -1,0 +1,146 @@
+.about_cmit{
+	width: 100%;
+	background-color: #FAFAFA;
+	padding-bottom: 3%; 
+}
+
+.block_header__head {
+	padding-top: 28px;
+	padding-left: 59px;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 30px;
+	color: #212020;
+	text-transform: uppercase;
+}
+
+.about_cmit__information {
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.about_cmit__information img {
+	width: 40%;
+}
+
+.about_cmit__information_p{
+	width: 46%;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.about_cmit__line_wr {
+	width: 60%;
+	display: block;
+	margin: auto;
+	margin-bottom: -5%;
+}
+
+.about_cmit__links {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.about_cmit__links :hover
+{
+	background-color: #66baed59;
+	
+}
+
+.about_cmit__links a {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+	width: 15%;
+	padding: 0.5%;
+
+	border: solid 2px black;
+	border-radius: 10px;
+	
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	color: #353535;
+}
+@media screen and (min-width: 1824px){
+	.about_cmit{
+	width: 100%;
+	background-color: #FAFAFA;
+	padding-bottom: 3%; 
+	height: 90.5vh;
+}
+
+.block_header__head {
+	padding-top: 28px;
+	padding-left: 59px;
+	font-family: "FETHEPROFESSIONAL", sans-serif;
+	font-size: 30px;
+	color: #212020;
+	text-transform: uppercase;
+}
+
+.about_cmit__information {
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.about_cmit__information img {
+	width: 40%;
+}
+
+.about_cmit__information_p{
+	width: 46%;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.about_cmit__line_wr {
+	width: 95%;
+	display: block;
+	margin: auto;
+	margin-bottom: -5%;
+}
+
+.about_cmit__links {
+	width: 75%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.about_cmit__links :hover
+{
+	background-color: #66baed59;
+	
+}
+
+.about_cmit__links a {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 17%;
+    padding: 0.5%;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: "FETHEPROFESSIONAL", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #353535;
+}
+}
